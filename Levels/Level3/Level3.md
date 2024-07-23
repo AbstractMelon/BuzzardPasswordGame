@@ -1,4 +1,7 @@
-Certainly! Let's decode the numbers and see if we can derive any meaningful passwords from them.
+# Level 3
+
+
+## Analasys bot:
 
 The output includes several numerical values:
 
@@ -104,9 +107,7 @@ Let's try some potential passwords derived from these numbers:
 2. `873244390328742315215273679539125276112813887636476301111283623152502`
 3. `29550634510954245209523268397569604837354648979129757332364332896648074069840786561440355198764060656178580586523219070389291158724265807803682873869343892165810549108235385348243523037000053905150445245356`
 
-If these don't work, you might need to try more combinations or consider the context of the game for additional clues.
-
-
+```python
 import math
 
 # Given numbers
@@ -131,6 +132,7 @@ log_numbers = [math.log(num) for num in positive_numbers if num > 0]
 sqrt_numbers = [math.sqrt(num) for num in positive_numbers if num > 0]
 
 (sum_numbers, concatenated_string, log_numbers, sqrt_numbers)
+```
 
 Result
 
